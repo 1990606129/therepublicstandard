@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Republic Standard — Truth. Liberty. America.</title>
-  <meta name="description" content="The Republic Standard delivers bold, unapologetic conservative news and commentary. Reporting the truth America needs to hear." />
+  <title>The Republic Standard â Truth. Liberty. America.</title>
+  <meta name="description" content="The Republic Standard delivers bold, unapologetic American news and commentary. Reporting the truth America needs to hear." />
   <meta property="og:title" content="The Republic Standard" />
   <meta property="og:description" content="Truth. Liberty. America." />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>ð¦</text></svg>" />
 </head>
 <body>
 
@@ -29,27 +30,238 @@
     <div class="header-inner">
       <a href="index.html" class="logo">
         <span class="logo-name">The Republic <span>Standard</span></span>
-        <span class="logo-tagline">Truth &nbsp;·&nbsp; Liberty &nbsp;·&nbsp; America</span>
+        <span class="logo-tagline">Truth &nbsp;Â·&nbsp; Liberty &nbsp;Â·&nbsp; America</span>
       </a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
       <nav id="mainNav">
         <a href="index.html" class="active">Home</a>
         <a href="blog.html">News</a>
         <a href="about.html">About</a>
+        <a href="blog.html#opinion">Opinion</a>
         <a href="blog.html" class="nav-cta">Subscribe</a>
       </nav>
     </div>
   </header>
 
+  <!-- BREAKING TICKER -->
+  <div class="ticker">
+    <div style="display:flex;align-items:center;overflow:hidden;">
+      <span class="ticker-label">Breaking</span>
+      <div class="ticker-track" id="tickerTrack">
+        <span>Senate moves to restore border enforcement authority</span>
+        <span>Supreme Court takes up Second Amendment case</span>
+        <span>New report exposes government spending waste</span>
+        <span>Energy independence: U.S. production hits record high</span>
+        <span>Election integrity legislation advances in key states</span>
+        <span>Senate moves to restore border enforcement authority</span>
+        <span>Supreme Court takes up Second Amendment case</span>
+        <span>New report exposes government spending waste</span>
+        <span>Energy independence: U.S. production hits record high</span>
+        <span>Election integrity legislation advances in key states</span>
+      </div>
+    </div>
+  </div>
+
   <!-- HERO -->
   <section class="hero">
     <div class="container">
-      <span class="hero-eyebrow">Conservative News &amp; Commentary</span>
+      <span class="hero-eyebrow">American News &amp; Commentary</span>
       <h1>Reporting the Truth <em>America</em> Needs to Hear</h1>
       <div class="hero-divider"></div>
-      <p class="hero-sub">In an era of media bias and institutional capture, The Republic Standard stands apart — delivering honest, principled journalism rooted in the values that built this nation.</p>
+      <p class="hero-sub">
+        In an era of media bias and institutional capture, The Republic Standard stands apart â
+        delivering honest, principled journalism rooted in the values that built this nation.
+      </p>
       <div class="hero-actions">
         <a href="blog.html" class="btn btn-primary">Read Latest News</a>
         <a href="about.html" class="btn btn-outline">Our Mission</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORY TABS -->
+  <div class="cat-tabs">
+    <div class="cat-tabs-inner">
+      <div class="cat-tab active">All</div>
+      <div class="cat-tab">Politics</div>
+      <div class="cat-tab">Economy</div>
+      <div class="cat-tab">National Security</div>
+      <div class="cat-tab">Border & Immigration</div>
+      <div class="cat-tab">Second Amendment</div>
+      <div class="cat-tab">Culture</div>
+      <div class="cat-tab">Opinion</div>
+    </div>
+  </div>
+
+  <!-- FEATURED ARTICLES -->
+  <section class="section" style="background:var(--parchment)">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Featured</span>
+        <h2>Top Stories</h2>
+        <div class="section-header-line"></div>
+        <a href="blog.html" style="font-size:13px;font-weight:600;color:var(--gold-dark);white-space:nowrap;">View All â</a>
+      </div>
+
+      <div class="articles-grid featured-grid">
+        <!-- Main Feature -->
+        <div class="article-card featured-main">
+          <div class="article-img tall">
+            <div class="article-img-placeholder">ð¦</div>
+            <span class="article-cat">Politics</span>
+          </div>
+          <div class="article-body">
+            <h3 class="large">The Sovereignty Doctrine: How America Reclaims Its Borders and Its Identity</h3>
+            <p>A comprehensive look at the legislative battles reshaping America's approach to national sovereignty â and why the mainstream media refuses to cover the real story.</p>
+            <div class="article-meta">
+              <span>Staff Writer</span>
+              <span class="dot"></span>
+              <span>May 24, 2026</span>
+              <span class="dot"></span>
+              <span>8 min read</span>
+            </div>
+            <a href="blog.html" class="read-more">Read More â</a>
+          </div>
+        </div>
+
+        <!-- Side Stories -->
+        <div class="article-card">
+          <div class="article-img">
+            <div class="article-img-placeholder">âï¸</div>
+            <span class="article-cat">Courts</span>
+          </div>
+          <div class="article-body">
+            <h3>Supreme Court Signals Strong Support for Second Amendment in Landmark Case</h3>
+            <div class="article-meta">
+              <span>May 23, 2026</span>
+              <span class="dot"></span>
+              <span>5 min read</span>
+            </div>
+            <a href="blog.html" class="read-more">Read More â</a>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <div class="article-img">
+            <div class="article-img-placeholder">ð°</div>
+            <span class="article-cat">Economy</span>
+          </div>
+          <div class="article-body">
+            <h3>Federal Spending Audit Reveals Billions in Waste â Who's Responsible?</h3>
+            <div class="article-meta">
+              <span>May 22, 2026</span>
+              <span class="dot"></span>
+              <span>6 min read</span>
+            </div>
+            <a href="blog.html" class="read-more">Read More â</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST NEWS GRID -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Latest</span>
+        <h2>News &amp; Analysis</h2>
+        <div class="section-header-line"></div>
+      </div>
+      <div class="articles-grid">
+        <div class="article-card">
+          <div class="article-img">
+            <div class="article-img-placeholder">ð¡ï¸</div>
+            <span class="article-cat">National Security</span>
+          </div>
+          <div class="article-body">
+            <h3>Inside the Pentagon's Push to Restore Military Readiness After Years of Decline</h3>
+            <p>Defense officials are sounding alarms about readiness gaps that accumulated over the past decade. Here's what they're doing about it.</p>
+            <div class="article-meta">
+              <span>May 21, 2026</span>
+              <span class="dot"></span>
+              <span>7 min read</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-card">
+          <div class="article-img">
+            <div class="article-img-placeholder">ð³ï¸</div>
+            <span class="article-cat">Elections</span>
+          </div>
+          <div class="article-body">
+            <h3>Election Integrity Laws Gain Momentum in Battleground States Ahead of Midterms</h3>
+            <p>Legislation requiring voter ID and auditable paper trails is advancing in six key states â despite fierce opposition from left-wing groups.</p>
+            <div class="article-meta">
+              <span>May 20, 2026</span>
+              <span class="dot"></span>
+              <span>5 min read</span>
+            </div>
+          </div>
+        </div>
+        <div class="article-card">
+          <div class="article-img">
+            <div class="article-img-placeholder">â½</div>
+            <span class="article-cat">Energy</span>
+          </div>
+          <div class="article-body">
+            <h3>American Energy Independence Is Real â and the Left Doesn't Want You to Know</h3>
+            <p>U.S. oil and gas production has hit record highs, lowering prices and reducing dependence on hostile foreign powers. Why won't the media report it?</p>
+            <div class="article-meta">
+              <span>May 19, 2026</span>
+              <span class="dot"></span>
+              <span>4 min read</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPINION STRIP -->
+  <section class="opinion-strip" id="opinion">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Opinion &amp; Commentary</span>
+        <h2>The Standard's Voice</h2>
+        <div class="section-header-line"></div>
+      </div>
+      <div class="opinion-grid">
+        <div class="opinion-card">
+          <div class="opinion-author">
+            <div class="author-avatar">J</div>
+            <div class="author-info">
+              <strong>James Whitfield</strong>
+              <span>Senior Contributor</span>
+            </div>
+          </div>
+          <h4>The Media's War on Truth â And How We Fight Back</h4>
+          <p>The corporate press has abandoned its watchdog role. It's time for Americans to demand better â and build the alternatives ourselves.</p>
+        </div>
+        <div class="opinion-card">
+          <div class="opinion-author">
+            <div class="author-avatar">C</div>
+            <div class="author-info">
+              <strong>Caroline Reid</strong>
+              <span>Political Analyst</span>
+            </div>
+          </div>
+          <h4>Why the Constitution Still Matters â Even When They Pretend It Doesn't</h4>
+          <p>Every generation must fight to preserve the founding principles. Ours is no different â and the stakes have never been higher.</p>
+        </div>
+        <div class="opinion-card">
+          <div class="opinion-author">
+            <div class="author-avatar">R</div>
+            <div class="author-info">
+              <strong>Robert Kane</strong>
+              <span>Economics Editor</span>
+            </div>
+          </div>
+          <h4>Free Markets Built America. Government Interference Is Destroying It.</h4>
+          <p>The data is clear: economies thrive when citizens are free to innovate and compete. Washington keeps getting in the way.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -58,8 +270,8 @@
   <section class="newsletter">
     <div class="container">
       <h2>Stay Informed. Stay Free.</h2>
-      <p>Get The Republic Standard's daily briefing delivered to your inbox — no spin, no agenda, just the truth.</p>
-      <form class="newsletter-form" onsubmit="e=>e.preventDefault()">
+      <p>Get The Republic Standard's daily briefing delivered to your inbox â no spin, no agenda, just the truth.</p>
+      <form class="newsletter-form" onsubmit="handleSubscribe(event)">
         <input type="email" placeholder="Your email address" required />
         <button type="submit">Subscribe Free</button>
       </form>
@@ -69,15 +281,78 @@
   <!-- FOOTER -->
   <footer>
     <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-name">The Republic <span>Standard</span></span>
+            <span class="logo-tagline">Truth &nbsp;Â·&nbsp; Liberty &nbsp;Â·&nbsp; America</span>
+          </a>
+          <p>Independent American news and commentary. We report what others won't â because America deserves the truth.</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/TheRepublicStandard" target="_blank" rel="noopener" title="Facebook">f</a>
+            <a href="https://twitter.com/RepublicStd" target="_blank" rel="noopener" title="Twitter/X">ð</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="blog.html">Politics</a></li>
+            <li><a href="blog.html">Economy</a></li>
+            <li><a href="blog.html">National Security</a></li>
+            <li><a href="blog.html">Border &amp; Immigration</a></li>
+            <li><a href="blog.html">Second Amendment</a></li>
+            <li><a href="blog.html">Culture</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Publication</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html#mission">Our Mission</a></li>
+            <li><a href="blog.html#opinion">Opinion</a></li>
+            <li><a href="about.html#contact">Contact</a></li>
+            <li><a href="about.html#contact">Write For Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Corrections</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
       <div class="footer-bottom">
-        <span>&copy; 2026 The Republic Standard. All rights reserved.</span>
-        <span>Truth · Liberty · America</span>
+        <span>Â© <span id="year"></span> The Republic Standard. All rights reserved.</span>
+        <span>Proud to stand for <strong style="color:var(--gold)">Truth Â· Liberty Â· America</strong></span>
       </div>
     </div>
   </footer>
 
   <script>
-    document.getElementById('topDate').textContent = new Date().toLocaleDateString('en-US', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+    // Date
+    const d = new Date();
+    document.getElementById('topDate').textContent = d.toLocaleDateString('en-US', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+    document.getElementById('year').textContent = d.getFullYear();
+
+    // Hamburger
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mainNav').classList.toggle('open');
+    });
+
+    // Subscribe
+    function handleSubscribe(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('button');
+      btn.textContent = 'â Subscribed!';
+      btn.style.background = '#162C4F';
+      setTimeout(() => { btn.textContent = 'Subscribe Free'; btn.style.background = ''; }, 3000);
+    }
   </script>
 </body>
 </html>
