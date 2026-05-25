@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Republic Standard — Truth. Liberty. America.</title>
+  <meta name="description" content="The Republic Standard delivers bold, unapologetic conservative news and commentary. Reporting the truth America needs to hear." />
+  <meta property="og:title" content="The Republic Standard" />
+  <meta property="og:description" content="Truth. Liberty. America." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <span class="top-bar-date" id="topDate"></span>
+      <div class="top-bar-social">
+        <a href="https://www.facebook.com/TheRepublicStandard" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://twitter.com/RepublicStd" target="_blank" rel="noopener">Twitter / X</a>
+        <a href="blog.html">Subscribe</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-name">The Republic <span>Standard</span></span>
+        <span class="logo-tagline">Truth &nbsp;·&nbsp; Liberty &nbsp;·&nbsp; America</span>
+      </a>
+      <nav id="mainNav">
+        <a href="index.html" class="active">Home</a>
+        <a href="blog.html">News</a>
+        <a href="about.html">About</a>
+        <a href="blog.html" class="nav-cta">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero-eyebrow">Conservative News &amp; Commentary</span>
+      <h1>Reporting the Truth <em>America</em> Needs to Hear</h1>
+      <div class="hero-divider"></div>
+      <p class="hero-sub">In an era of media bias and institutional capture, The Republic Standard stands apart — delivering honest, principled journalism rooted in the values that built this nation.</p>
+      <div class="hero-actions">
+        <a href="blog.html" class="btn btn-primary">Read Latest News</a>
+        <a href="about.html" class="btn btn-outline">Our Mission</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="container">
+      <h2>Stay Informed. Stay Free.</h2>
+      <p>Get The Republic Standard's daily briefing delivered to your inbox — no spin, no agenda, just the truth.</p>
+      <form class="newsletter-form" onsubmit="e=>e.preventDefault()">
+        <input type="email" placeholder="Your email address" required />
+        <button type="submit">Subscribe Free</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; 2026 The Republic Standard. All rights reserved.</span>
+        <span>Truth · Liberty · America</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('topDate').textContent = new Date().toLocaleDateString('en-US', { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+  </script>
+</body>
+</html>
